@@ -1,0 +1,23 @@
+body {
+	font-family:'Merienda One', Helvetica, sans-serif;
+	background-image: url('http://freewallpapers4desktop.com/wallpapers/handwriting-1920x1080.jpg');
+	color: white;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size:100% 100%; 
+	background-size:100% 100%; 
+	
+}
+
+.title {
+	text-align: center;
+	margin: 30px auto 20px;
+	color: white;
+	font-weight: bold;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}

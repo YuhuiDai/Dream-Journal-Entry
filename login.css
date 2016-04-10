@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+html {
+	background: url('http://wallpapers.ae/wp-content/uploads/2015/08/abstract_wallpaper_hd_55wozatw.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size:100% 100%; 
+	background-size:100% 100%;
+	color: rgb(248, 236, 226);
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 3em auto;
+}
+h1 {
+	margin: 20px auto;
+	display: block;
+	padding: 5px;
+	font-size:7vw;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#choiceArea {
+	margin: 20px auto;
+	text-align: center;
+	color: #4b2c0d;
+}
+
+button {
+  display: block;
+  margin:20px auto;
+  width: 80px;
+  height: 40px;
+  font-size: 1.5vw;
+  border: none;
+  border-radius: 25px;
+  background-color: rgba(248, 236, 226, 0.9);
+  color:#4b2c0d;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+button:active, button:focus{
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+button:hover {
+  box-shadow: 5px 5px 20px 1px rgba(248, 236, 226, 0.9);
+}
+
+textarea {
+	display: block;
+	margin: 30px auto;
+	padding: 5px;
+	width: 300px;
+	height: 40px;
+	background: transparent;
+	border-radius: 20px;
+	border-color: rgba(248, 236, 226, 0.9);
+	border-width: 3px;
+	color: rgb(248, 236, 226) ;
+	text-align: center;
+	font-size: 2vw;
+}
+
+textarea:active, textarea:focus{
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+textarea:hover {
+	box-shadow: 10px 10px 50px 5px rgba(248, 236, 226, 0.9);
+}
+.choice {
+	display: inline-block;
+	font-size: 2vw;
+	margin: 20px 7vw;
+	padding: 5px;
+	width: 200px;
+	height: 150px;
+}
+
+#questions {
+	display: block;
+	margin: 30px auto;
+	text-align: center;
+	font-size: 2vw;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(248, 236, 226);
+}
+
+#homePage {
+	display: block;
+	position: absolute;
+	right: 50px;
+	top:50px;
+	font-size: 2vw;
+	font-weight: bold;
+}

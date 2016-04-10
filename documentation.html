@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Documentation</title>
+    <link rel="stylesheet" type="text/css" href="documentation.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div>
+		<div class="title"><h1>Documentation</h1></div>
+		<div class="paragraph">
+			<ul>
+				<ol>
+					<h2>Final Project:</h2>
+					<p>The web displays your dream journal. A user can build his or her own dream box by signing in and create a name. Besides, the user can check out other's dream journal from the home page and comment on it. When you write your dream down, the sentiment analysis api can tell you whether it is a good dream or bad dream or neutral dream.</p>
+				</ol>
+				<ol>
+					<h2>Why I do it:</h2>
+					<p>I always have pretty vivid dream and sometimes amazingly interesting dream. I want to keep a dream journal so that I can write down what I dreamt so that I would not forget. Sometimes the dream is so complex, with a lot of postive and negative emotion involved. I am wondering whether it is a good sign or a bad sign. In my application, I used a natural language processing api to analyze the sentiment in my text. With the final algorithm offered by the api, I can have a sense of the overall emotional tendency.</p>
+				</ol>
+				<ol><h2>How the code works:</h2>
+					<li>Home page displays all the dream journals, and their related comments</li>
+					<li>User can click the comment button to comment on the dream and save it</li>
+					<li>Login page allows user to either create a new page or entering their existing page by type in their user name</li>
+					<li>Based on which button the user click, call different functions</li>
+					<li>On the individual user page, one can write his or her dream in text</li>
+					<li>The api will tell you immediately whether it is a good dream or a bad dream</li>
+					<li>Then, the page automatically add your dream to your previous dream journals if they exist</li>
+				</ol>
+				<ol><h2>Challenges:</h2>
+					<li>The navigating from one page to another page is tricky at first but once I understand the mechanism, it is much easier</li>
+					<li>Displaying dream journals' date is difficult at first because the way the data is displayed is different when it is stored freshly and when it is retrived from the database. So I have to create two different functions based on the in which way the data are displayed, either retrieval or just created</li>
+					<li>The asynchronized issue happened frequently when I am coding. I have to be extra careful about where I put it</li>
+					<li>I have to create two type of objects in my database, the dreams and the comments and match them together. By associating their id together, I know where to put which comment</li>
+					<li>At first, when I click on comment, suddenly all the section under comments of each dreams are open for me to edit. I only want to comment on the one I click. I have to create a unique id for that specifc section in html. The way to address the issue is by using the id of that particular dream as the base id to give the comment section a unique id that relates to the dream id. In this way, I can make sure that every time someone clicks on comment button, he or she only can comment on the specific dream, not everything</li>
+				</ol>
+				<ol><h2>Things that can be improved:</h2>
+					<li>If I can create three sections on the home page to categorize the dream by sweet dreams, bad dreams, nuetral dreams. When people come to the website for the first time, they can select what type of dreams they are willing to read.</li>
+					<li>I can use the natural language processing to analyze the content of dream. Matching similar dream or finding opposite dreams can be interesting.</li>
+					<li>I can make the background dynamic, mimicing the vividness of dreams.</li>
+					<li>The dream can be associated with music. If I can add music, either happy ones or sad ones based on the content of the dream, it will be really cool.</li>
+				</ol>
+				<ol>
+					<h2>resources</h2>
+					<li><a href="http://www.alchemyapi.com/api/sentiment/textc.html#textsentiment" target="_blank">Alchemy API</a></li>
+					<li><a href="https://github.com/craigprotzel/Mashups/tree/master/13_Running_Wild_with_Git_and_Heroku/Heroku_Node_Deploy" target="_blank">Deploy Method</a></li>
+					<li><a href="https://github.com/craigprotzel/Mashups/tree/master/11_More_Storage/CouchDB_Blog" target="_blank">Notes Code</a></li>
+					<li><a href="http://www.w3schools.com/jquery/html_html.asp" target="_blank">jquery documentation on html selection</li>
+				</ol>
+			</ul>
+	</div>
+</body>
+</html>

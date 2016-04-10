@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+html {
+	background: url('http://www.eveboo.com/wp-content/uploads/2013/03/star_forming_region_hd_widescreen_wallpapers_1680x1050.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size:100% 100%; 
+	background-size:100% 100%; 
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14px;
+	max-width: 600px;
+	min-width: 300px;
+	margin: 1em auto;
+	color: white;
+}
+
+h1 {
+	margin: 40px auto;
+	display: block;
+	padding: 5px;
+	font-size: 4vw;
+	text-align: center;
+	color: white;
+}
+
+
+#question {
+	display:block;
+	margin:20px auto;
+	padding: 5px;
+	/*width: 30%;*/
+	height: 40px;
+	font-size: 2vw;
+	border-radius: 10px;
+	color: white;
+}
+
+input {
+	display:block;
+	margin:20px auto;
+	padding: 5px;
+	width: 30%;
+	height: 40px;
+	font-size: 2vw;
+	border-radius: 10px;
+	border: 2px solid;
+	border-color: #c6cbcc;
+	background-color: transparent;
+	color: white;
+}
+
+input:active, input:focus{
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+input:hover {
+	box-shadow: 10px 10px 50px 5px #c6cbcc;
+}
+
+textarea {
+	display: block;
+	margin:10px auto;
+	width: 100%;
+	min-height: 250px;
+	font-size: 2vw;
+	border: 2px solid;
+	border-color: #c6cbcc;
+	border-radius: 15px;
+	background-color: transparent;
+	color:white;
+
+}
+
+textarea:active, textarea:focus{
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+textarea:hover {
+	box-shadow: 10px 10px 50px 5px rgba(171,130,255, 0.8);
+}
+
+.dream {
+	margin: 1em 0;
+	padding: 1em 0;
+	border-bottom: 1px solid gray;
+}
+#homePage {
+	display: block;
+	position: absolute;
+	right: 50px;
+	top:50px;
+	font-size: 2vw;
+	font-weight: bold;
+	margin: 20px 20px 20px 20px;
+	padding: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(248, 236, 226);
+}
+
+.subtext {
+   display: block;
+   margin: 5px auto;
+   padding: 5px;
+}
